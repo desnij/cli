@@ -58,7 +58,7 @@ func initCommand() cli.Command {
 			},
 			cli.StringFlag{
 				Name:  "address",
-				Usage: "The <address> that the new CA will listen at.",
+				Usage: "The <address>:<port> that the new CA will listen at.",
 			},
 			cli.StringFlag{
 				Name:  "provisioner",
